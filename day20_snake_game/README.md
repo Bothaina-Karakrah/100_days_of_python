@@ -1,4 +1,4 @@
-# 🐍 Day 20 & 21: Snake Game (Classic Arcade in Python)
+# 🐍 Day 20 & 21: Snake Game
 
 Welcome to Days 20–21 of my **100 Days of Code - Python** challenge!  
 Over these two days, I built the classic **Snake Game** using **Python's `turtle` module**, applying **Object-Oriented Programming (OOP)**, **animation loops**, and **event-driven programming**.
