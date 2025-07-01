@@ -76,8 +76,6 @@ This project marks a major step in building interactive GUI apps and structuring
 
 ## 📸 Screenshot
 
-> Replace this with your image later
-
 <img width="400" alt="snake game preview" src="https://github.com/user-attachments/assets/39f9e226-044e-4d00-bb01-fc9ffa69de89" />
 
 ---
