@@ -50,14 +50,14 @@ Each folder contains:
 
 ## 📈 Progress Tracker (Days 17–100)
 
-| Days      | Focus Area                              | Status       |
-|-----------|------------------------------------------|--------------|
-| 17–26     | OOP, Turtle Graphics & Small Games       | ✅ Completed |
-| 27–36     | GUI Apps with Tkinter                    | ⬜ In Progress |
+| Days      | Focus Area                              | Status         |
+|-----------|------------------------------------------|----------------|
+| 17–26     | OOP, Turtle Graphics & Small Games       | ✅ Completed   |
+| 27–36     | GUI Apps with Tkinter                    | ✅ Completed   |
 | 37–50     | APIs, Web Requests, Data Pipelines       | ⬜ In Progress |
-| 51–70     | Automation, Selenium, Intermediate Python| ⬜ In Progress |
-| 71–90     | Flask Web Dev, REST APIs, Deployment     | ⬜ Upcoming   |
-| 91–100    | Final Capstone Projects (Full-stack)     | ⬜ Upcoming   |
+| 51–70     | Automation, Selenium, Intermediate Python| ⬜ Upcoming    |
+| 71–90     | Flask Web Dev, REST APIs, Deployment     | ⬜ In Progress |
+| 91–100    | Final Capstone Projects (Full-stack)     | ⬜ Upcoming    |
 
 For details on each day, visit 👉 Days 17–100 Summary
 
