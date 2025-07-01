@@ -68,9 +68,12 @@ class Question:
 </ul>
 
 ## 🚀 Project of the Day: Quiz Game
-	•	Displays multiple choice questions (True/False)
-	•	User answers interactively in the terminal
-	•	Displays final score and game over message
+<ul>
+	<li>Displays multiple choice questions (True/False)</li>
+	<li> User answers interactively in the terminal</li>
+	<li>Displays final score and game over message</li>
+</ul>
+
 
 # Sample output
 <img width="1128" alt="image" src="https://github.com/user-attachments/assets/1da21f92-5857-48bb-908c-b8803600e0bd" />
