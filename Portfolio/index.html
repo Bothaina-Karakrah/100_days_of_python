@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Bothaina Karakrah - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <nav>
+        <div class="container">
+            <div class="logo">Bothaina Karakrah</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Bothaina Karakrah</h1>
+            <p>Software Engineer</p>
+            <a class="cta-button" href="#projects">View My Work</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content fade-in">
+                </div>
+                <div class="about-text">
+                    <p>"Software Engineer with 3+ years at Meta."</p>
+                    <p>"I've led backend migrations, designed solutions used by 30+ engineers, and built fraud detection systems while achieving 97% test coverage."</p>
+                    <div class="skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">PHP (Hack)</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">Unit Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img alt="Backend Services Migration" src="{{ url_for('static', filename='images/projects/project1.jpg') }}" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Backend Services Migration</h3>
+                        <p class="project-description">Led migration from Python to PHP (Hack), improving system latency by 25%</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a class="project-link" href="#">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+<!--                second one-->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img alt="Fraud Detection Engine" src="{{ url_for('static', filename='images/projects/project1.jpg') }}" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fraud Detection Engine</h3>
+                        <p class="project-description">Developed rules-based system for Shops onboarding, increasing fraud catch rate by 20%</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a class="project-link" href="#">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+<!--                third one-->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img alt="Snake Game" src="{{ url_for('static', filename='images/projects/project1.jpg') }}" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Snake Game</h3>
+                        <p class="project-description">Built the classic Snake Game</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">turtle</span>
+                        </div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://github.com/Bothaina-Karakrah/100_days_of_python/tree/main/day20_snake_game">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+<!--                fourth one-->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img alt="quizzler" src="{{ url_for('static', filename='images/projects/project1.jpg') }}" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">quizzler</h3>
+                        <p class="project-description">Interactive quiz app using tkinter with OOP and dynamic question flow via API</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">tkinter</span>
+                        </div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://github.com/Bothaina-Karakrah/100_days_of_python/tree/main/day34_quizzler">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-content fade-in">
+                <p>I'm always open to discussing new opportunities and interesting projects. Let's connect!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <a href="mailto:bothaina.karakrah@gmail.com">bothaina.karakrah@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>💼</span>
+                        <a href="https://www.linkedin.com/in/bothaina-karakrah-57458219a/">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>🐙</span>
+                        <a href="https://github.com/Bothaina-Karakrah">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="js/script.js"></script>
+</body>
+</html>
